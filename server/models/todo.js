@@ -11,7 +11,7 @@ var Todo = mongoose.model("Todo", {
         type: Boolean,
         default: false
     },
-    complatedAt: {
+    completedAt: {
         type: Number,
         defuallt: null
     }
